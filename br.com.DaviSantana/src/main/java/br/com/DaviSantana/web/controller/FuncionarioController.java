@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/funcionarios")
 public class FuncionarioController {
-	public class DepartamentoController {
-		
+	
 		@GetMapping("/cadastrar")
 		public String cadastrar() {
 			return "/funcionario/cadastro";
@@ -16,7 +15,7 @@ public class FuncionarioController {
 		
 		@GetMapping("/listar")
 			public String listar() {
-				return "/funcionario/listar";
+				return "/funcionario/lista";
 		}
-	}
+	
 }

@@ -15,6 +15,6 @@ public class DepartamentoController {
 	
 	@GetMapping("/listar")
 		public String listar() {
-			return "/departamento/listar";
+			return "/departamento/lista";
 	}
 }

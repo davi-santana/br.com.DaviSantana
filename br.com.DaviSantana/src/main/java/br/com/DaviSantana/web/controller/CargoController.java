@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/cargos")
 public class CargoController {
-	public class DepartamentoController {
-		
+
 		@GetMapping("/cadastrar")
 		public String cadastrar() {
 			return "/cargo/cadastro";
@@ -16,7 +15,7 @@ public class CargoController {
 		
 		@GetMapping("/listar")
 			public String listar() {
-				return "/cargo/listar";
+				return "/cargo/lista";
 		}
-	}
+	
 }
